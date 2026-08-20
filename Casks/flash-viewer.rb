@@ -24,8 +24,6 @@ cask "flash-viewer" do
                    args: ["-cr", "#{appdir}/Flash.app"]
   end
 
-  zap trash: []
-
   caveats <<~EOS
     Flash is ad-hoc signed (not notarized). Homebrew removes the quarantine
     flag after install. If macOS still blocks it, go to System Settings →
