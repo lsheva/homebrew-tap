@@ -6,11 +6,13 @@ personal builds live here.
 ```bash
 brew tap lsheva/tap
 brew install --cask flash-viewer
+brew install --cask lion-wallet
 ```
 
 | Cask | Installs | Source |
 |---|---|---|
 | `flash-viewer` | `Flash.app` | [lsheva/flash](https://github.com/lsheva/flash) |
+| `lion-wallet` | `LionWallet.app` | [lsheva/lion-wallet](https://github.com/lsheva/lion-wallet) |
 
 `flash` is already a Homebrew core formula (an SD-card tool), so the photo
 viewer cask is named `flash-viewer`.
