@@ -22,6 +22,8 @@ cask "lion-wallet" do
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/LionWallet.app"]
+    system_command "/usr/bin/open",
+                   args: ["#{appdir}/LionWallet.app"]
   end
 
   caveats <<~EOS
