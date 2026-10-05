@@ -1,6 +1,6 @@
 cask "lion-wallet" do
-  version "0.1.6"
-  sha256 "b385b3572143efa39802b75703e98826221f359c1d786aefca971a1013773d98"
+  version "0.1.7"
+  sha256 "f1ca234178a7b3a756daea8498df1f76b101b5347432ddbe0bcdc914532cb35c"
 
   url "https://github.com/lsheva/lion-wallet/releases/download/v#{version}/LionWallet-#{version}.zip"
   name "Lion Wallet"
