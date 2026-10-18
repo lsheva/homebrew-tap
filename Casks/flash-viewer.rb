@@ -1,6 +1,6 @@
 cask "flash-viewer" do
-  version "0.1.1"
-  sha256 "7ab279cb14c2cba0fb23b773b20ce5dc18ad5827c14f968da7eaef676f3dae8f"
+  version "0.1.2"
+  sha256 "040ebfe6f0ab4d5eb052d9db0e420940f666807dfdd3357bd31b5d6b95c1ef99"
 
   url "https://github.com/lsheva/flash/releases/download/v#{version}/Flash-#{version}.zip"
   name "Flash"
